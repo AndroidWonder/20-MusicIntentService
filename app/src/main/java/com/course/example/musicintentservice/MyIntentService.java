@@ -32,7 +32,7 @@ public class MyIntentService extends IntentService {
             mp = new MediaPlayer();
             try {
                 //select Harvard stream
-                mp.setDataSource("http://hrbinc-hi.streamguys.net");
+                mp.setDataSource("http://stream.whrb.org:8000/whrb-mp3");
                 mp.prepare();
                 mp.start();
             } catch (IOException e) {
