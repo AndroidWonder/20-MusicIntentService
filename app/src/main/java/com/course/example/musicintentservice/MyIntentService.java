@@ -31,7 +31,7 @@ public class MyIntentService extends IntentService {
 
             mp = new MediaPlayer();
             try {
-                //select Harvard stream
+                //select Harvard Radio stream
                 mp.setDataSource("http://stream.whrb.org:8000/whrb-mp3");
                 mp.prepare();
                 mp.start();
