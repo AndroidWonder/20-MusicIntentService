@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/20-MusicIntentService.iml" filepath="$PROJECT_DIR$/20-MusicIntentService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/20-MusicIntentService.iml" filepath="$PROJECT_DIR$/.idea/modules/20-MusicIntentService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/20-MusicIntentService.app.unitTest.iml" />
     </modules>
   </component>
 </project>

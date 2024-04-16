@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdk 33
     defaultConfig {
         applicationId "com.course.example.musicintentservice"
         minSdkVersion 26
-        targetSdkVersion 28
+        targetSdk 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
@@ -17,6 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.course.example.musicintentservice'
+
+
 }
 
 dependencies {
